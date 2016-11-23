@@ -1,0 +1,523 @@
+/* Applying transparency to menu */
+
+.header .home-menu {
+    background: transparent !important;
+    top: 15px;
+}
+
+
+/* Changing pure css styles */
+
+.pure-menu {
+    border-bottom: none !important;
+}
+
+.pure-menu a {
+    font-size: 1em;
+    font-family: "OswaldBold", sans-serif;
+    color: white !important;
+}
+
+
+/* This styles the hr lines */
+
+hr {
+    width: 60%;
+    border-top: solid 2px #c7f2ba;
+}
+
+
+/* Home menu styles */
+
+.home-menu {
+    position: absolute;
+    display: block;
+    top: 2.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.home-menu a {
+    color: white;
+    font-family: "OswaldRegular", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.home-menu li a:hover {
+    background: white !important;
+    border: none !important;
+    color: #136C9F !important;
+}
+
+
+/* This styles the back-to-top button*/
+
+.scroll-to-top {
+    position: fixed;
+    background: url(../images/scroll-to-top.png) no-repeat;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    bottom: 1em;
+    right: 1em;
+    padding-right: 1em;
+    display: none;
+    z-index: 9999;
+}
+
+
+/*
+ * -- SPLASH STYLES --
+ * This is the splash section that appears on the top of the page.
+ */
+
+.splash-container {
+    background-color: #6EC5EE;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+}
+
+.splash {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+hr {
+    border: solid #195D71;
+    border-width: 3px 0 0;
+    width: 90px;
+    margin: 11px auto 15px;
+    height: 0;
+    clear: both;
+    text-align: center;
+}
+
+.logo {
+    padding-bottom: 0.2em;
+}
+
+
+/* This is the main heading on the splash section */
+
+.splash-head {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding: 0.6em 0.8em;
+    font-weight: 100;
+    line-height: 1em;
+    opacity: 0.8;
+
+}
+
+.mast {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #5D8E94;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #5D8E94;
+    padding: 1em;
+    width: 30% !important;
+}
+
+.splash:last-child {
+    border: none;
+}
+
+
+/* This is the subheading on the splash section */
+
+.splash-subhead {
+    color: #0B314F;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+
+/* This is the splash text styles */
+
+.splash h1 {
+    font-family: "OswaldRegular", sans-serif;
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+}
+
+.splash h2 {
+    font-family: "OswaldRegular", sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.splash p {
+    font-family: "RalewayBold", sans-serif;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+.round-image {
+    border-radius: 50% !important;
+    padding: 2em;
+    width: 150px;
+}
+
+
+/* Styling pure buttons */
+
+.pure-button {
+    background: #39A1CD !important;
+    color: #fff;
+    box-shadow: 0 6px #3397B4;
+    border-radius: 0 0 5px 5px !important;
+}
+
+#team h3 {
+    
+    margin: 0px;
+}
+
+#team p {
+    margin: 0px;
+    text-align: center;
+}
+
+#team .pure-u-1-5 {
+    padding: 1em;
+}
+
+
+/* Hover effect. Change?  */
+
+.pure-button:hover {
+    background-color: #5FA6BB !important;
+}
+
+.pure-button:active {
+    background-color: #39A1CD !important;
+    box-shadow: 0 5px #3397B4 !important;
+    transform: translateY(5px) !important;
+}
+
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the splash section)
+ */
+
+.content-wrapper {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background-color: #f7f7f7;
+    margin-top: 47px!important;
+}
+
+
+/* This is the class used for the main content headers (<h2>) */
+
+.content-head {
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+    font-size: 2em;
+    font-family: "OswaldRegular", sans-serif;
+    text-align: center;
+    color: #1B2638;
+    padding-top: 1.5em;
+}
+
+
+/* This applies the top style of the about section only to that section */
+
+.content-wrapper >:first-child {
+    margin-top: -4em !important;
+}
+
+
+/*This styles the content area*/
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* Styling the texts of the content area */
+
+.content h2 {
+    margin-top: -2.5em;
+    padding-bottom: 2em;
+}
+
+.content h3 {
+    text-align: center;
+    font-family: "RalewayLight", sans-serif;
+    font-size: 1.1;
+    color: #1B2638;
+    letter-spacing: 1px;
+}
+
+.content p {
+    font-family: "RalewayBold", sans-serif;
+    font-size: 1.1em;
+    color: #1B2638;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+
+.content a {
+    font-family: "RalewayRegular", sans-serif;
+    font-size: 1.1em;
+    color: #1B2638;
+    text-decoration: underline;
+}
+
+
+/* This styles the inner content area of the about section */
+
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 1px 0 #777;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
+
+
+/* This applies the rounded style of the about image */
+
+.box img {
+    display: block;
+    margin: 3em 0 3em -3em;
+    position: relative;
+    width: calc(100% + 6em);
+}
+
+.box:last-child img {
+    border-radius: 0 0 6px 6px;
+    margin-bottom: -3em !important;
+}
+
+.content li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 1em;
+}
+
+.retailers img {
+    width: 150px;
+}
+
+.retailers .box {
+    box-shadow: none;
+    display: inline-block;
+    margin: 1em 1em 1em 1em;
+    padding: 0em;
+}
+
+/* Ugly hack, i'm sorry */
+
+.retailers img {
+    margin: 0 0 2em 0;
+}
+
+.retailers {
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.retailers h2 {
+    margin-top: 1em;
+    padding: 0;
+    font-family: "OswaldLight";
+    font-weight: 400;
+letter-spacing: 0.1em;
+font-size: 1.5em;
+font-family: "OswaldRegular", sans-serif;
+color: #1B2638;
+}
+
+
+/* This applies the responsive google maps */
+
+.map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 50%;
+    display: inline-block;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* This styles the contact form */
+
+.contactus {
+    padding-left: 2em;
+}
+
+.pure-g {
+    letter-spacing: 0em !important;
+}
+
+/* Applies icon style for social buttons */
+
+.icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+    }
+
+        .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+        .icon:active, .icon:hover {
+            text-decoration: none;
+        }
+
+        .icon > .label {
+            display: none;
+        }
+
+        .icon.rounded {
+            background-color: #383b43;
+            border-radius: 100%;
+            color: #ffffff;
+            display: inline-block;
+            height: 3.25em;
+            line-height: 3.25em;
+            text-align: center;
+            width: 3.25em;
+        }
+
+            .icon.rounded.big {
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+            }
+
+            .icon.rounded.fa-twitter {
+                background-color: #2daae4;
+            }
+
+            .icon.rounded.fa-facebook {
+                background-color: #39599f;
+            }
+
+            .icon.rounded.fa-google-plus {
+                background-color: #c91e1f;
+            }
+
+            .icon.rounded.fa-tumblr, .icon.rounded.fa-linkedin {
+                background-color: #31516a;
+            }
+
+
+
+
+/* This applies a media query for mobile devices on the content area */
+
+@media (max-width: 736px) {
+    .content {
+        width: 100%;
+    }
+    .map {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+/* Fonts  */
+
+@font-face {
+    font-family: OswaldBold;
+    src: url(../fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: OswaldRegular;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(whiteboard.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
